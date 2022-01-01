@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+div {
+	 display: flex; 
+	justify-content: center;
+}
+#table {
+	margin-top: 30px;
+	background-color: blue;
+}
+
+
+#table tbody tr:nth-child(even)
+{
+  background: orange;
+}
+
+table, th, td {
+	
+	padding: 5px;
+	
+	border-collapse: collapse;
+	
+	border: 1px solid grey;
+	
+	
+	
+}
+
+#table2 td:nth-child(1)
+  {
+    background-color: blue;
+  }
+  
+  #table2 td:nth-child(2)
+  {
+    background-color: orange;
+  }
+  
+
+#error{
+	color: red;
+}
+
+#delete{
+	color: green;
+}
